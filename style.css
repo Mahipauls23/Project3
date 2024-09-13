@@ -87,5 +87,40 @@ h2{
     background: #D13F30;
 
 }
-
+@media screen and (max-width: 500px) {
+    
+    .display{
+        width:300px;
+    }
+    .input{
+        width:250px;
+    }
+    .btn {
+        background: #EAE3DB;
+    
+        width:50px;
+        /* padding: .5em; */
+        height:35px;
+        border-radius: 8px;
+        margin: 0 auto;
+        font-weight: 800;
+        font-size: 1em;
+        cursor:pointer
+        
+    }
+    .reset{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 120px;
+        background: #647299;
+    
+    }
+    .equal{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        width: 120px;
+        background: #D13F30;
+    
+    }
+}
 
