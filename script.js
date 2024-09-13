@@ -32,10 +32,8 @@ function deleteLast() {
 
 function calculate() {
     try {
-      // Create a function to safely evaluate the expression
       const result = new Function('return ' + currentInput)();
       
-      // If the result is undefined or not a valid number, show error
       if (isNaN(result) || result === undefined) {
         throw new Error();
       }
